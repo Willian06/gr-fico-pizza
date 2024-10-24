@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: '%',
+                text: 'Porcentagem representada',
                 font: {
                     color: getCSS('--secondary-color')
                 }
