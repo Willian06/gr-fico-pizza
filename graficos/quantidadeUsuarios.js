@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Redes sociais com mais usuários no mundo',
+            text: 'POrcentagem de aborto representada nas idades de 15 a 19 anos, 20 a 24anos, 25 a 29 anos, 30 a 34 anos, 35 a 39 anos e 40 anos ou mais.',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
