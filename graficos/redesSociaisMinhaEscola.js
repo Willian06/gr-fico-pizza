@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`Como no mundo, a amostra de pessoas entrevistadas por mim, demonstra um apreço pelo <span>Instagram</span> em relação a outras redes.`)
+    incluirTexto(`Como no Brasil, a amostra de pessoas entrevistadas pelo <span>IBGE</span>, relatam o abandono infantil em cada região `)
 }
 
 redesSociaisFavoritasMinhaEscola()
