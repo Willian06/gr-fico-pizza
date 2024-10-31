@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`Como no Brasil, a amostra de pessoas entrevistadas pelo <span>IBGE</span>, relatam o abandono infantil em cada região `)
+    incluirTexto(`Como no Brasil, a amostra de pessoas entrevistadas pelo <span>IBGE</span>, relatam a porcentagem do abandono infantil em cada região `)
 }
 
 redesSociaisFavoritasMinhaEscola()
