@@ -20,8 +20,8 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = Object.values(contagemRedesSociais)
-    const labels = Object.keys(contagemRedesSociais)
+    const valores =['20','30','25','15','10']
+    const labels =['norte','nordeste','sudeste','sul','centro-oeste']
 
     const data = [
         {
@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Redes sociais que as pessoas da minha escola mais gostam',
+            text: 'gráfico do abandono infantil nas regiões',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
